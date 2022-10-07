@@ -35,11 +35,11 @@ public class CalculoDepreciacionActivos {
 	        	System.exit(0);
 	        }else {
 	         double deprean = (a - b) / c;
-	         System.out.print("SU DEPRECIACION USANDO EL METODO DE LINEA RECTA ES : "  +  deprean );
+	         System.out.print("\tSU DEPRECIACION USANDO EL METODO DE LINEA RECTA ES : "  +  deprean );
 	         double depreacum = deprean * c;
-				System.out.print("\tSU DEPRECIACION ACUMULADA ES DE : "  + depreacum);
-	        double libros1 =a - depreacum ;        
-	         System.out.print("\tSU VALR DE LIBROS ES : " + libros1 );
+				System.out.print("\nSU DEPRECIACION ACUMULADA ES DE : "  + depreacum);
+	        double libros1 = depreacum - a;        
+	         System.out.print("SU VALR DE LIBROS ES : " + libros1 );
 	        }
 	        break;
 		case 3 :

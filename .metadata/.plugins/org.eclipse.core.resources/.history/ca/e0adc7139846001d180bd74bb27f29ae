@@ -23,23 +23,13 @@ public class CalculoDepreciacionActivos {
 	        double b = lector.nextDouble();
 	        System.out.println("INGRESE LA VIDA UTIL DEL PRODUCTO : ");
 	        int c = lector.nextInt();
-	        int cont = c;
-	        
-	       
-	        
-	        
-	        
 	        
 	        if(a<=0 || b<=0 || c<=0){
 	        	System.out.println("DATOS INCORRECTOS, POR FAVOR INGRESE LOS VALORES CORRECTOS ");
 	        	System.exit(0);
 	        }else {
 	         double deprean = (a - b) / c;
-	         System.out.print("SU DEPRECIACION USANDO EL METODO DE LINEA RECTA ES : "  +  deprean );
-	         double depreacum = deprean * c;
-				System.out.print("\tSU DEPRECIACION ACUMULADA ES DE : "  + depreacum);
-	        double libros1 =a - depreacum ;        
-	         System.out.print("\tSU VALR DE LIBROS ES : " + libros1 );
+	         System.out.println("SU DEPRECIACION USANDO EL METODO DE LINEA RECTA ES : "  +  deprean );
 	        }
 	        break;
 		case 3 :
@@ -48,7 +38,7 @@ public class CalculoDepreciacionActivos {
 			System.out.println("INGRESE EL VALOR DEL DESECHO : " );
 	        double e = lector.nextDouble();
 	        System.out.println("INGRESE LA VIDA UTIL DEL PRODUCTO : ");
-	        int co = lector.nextInt();
+	        int cont = lector.nextInt();
 	        System.out.println("INGRESE VIDA UTIL EN UNIDADES : " );
 	        double f1 = lector.nextDouble();
 	        

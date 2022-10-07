@@ -1,0 +1,15 @@
+package primerexamenparcial;
+
+import java.util.Scanner;
+
+public class CalculoDepreciacionActivos {
+
+	public static void main(String[] args) {
+		Scanner lector = new Scanner(System.in);
+		
+		System.out.println("SELECCIONE POR CUAL METODO SE CALCULARA LA DEPRECIACION :");
+		int met = lector.nextInt();
+
+	}
+
+}

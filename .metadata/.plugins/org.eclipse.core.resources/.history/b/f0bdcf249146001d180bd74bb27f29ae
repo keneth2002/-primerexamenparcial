@@ -1,0 +1,27 @@
+package primerexamenparcial;
+
+import java.util.Scanner;
+
+public class CalculoDepreciacionActivos {
+
+	public static void main(String[] args) {
+		Scanner lector = new Scanner(System.in);
+		
+		System.out.println("SELECCIONE POR CUAL METODO SE CALCULARA LA DEPRECIACION :");
+		System.out.println("1. Método de línea recta ");
+		System.out.println("2. Método de la suma de los dígitos por año ");
+		System.out.println("3. Método de las unidades producidas ");
+		System.out.println("4. Método de reducción de saldo ");
+		
+		int met = lector.nextInt();
+		
+		switch (met){
+		case 1 :
+			System.out.println("met");
+	
+		
+		}
+
+	}
+
+}
